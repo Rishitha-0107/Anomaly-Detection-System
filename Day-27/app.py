@@ -5,7 +5,7 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
- import os
+import os
 st.write("Current Directory:", os.getcwd())
 st.write("Files in Directory:", os.listdir())
 
@@ -181,3 +181,4 @@ with tab3:
     - **Anomaly Score**: Lower scores indicate more anomalous behavior
 
     """)
+
