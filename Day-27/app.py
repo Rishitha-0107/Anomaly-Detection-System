@@ -5,9 +5,7 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-import os
-st.write("Current Directory:", os.getcwd())
-st.write("Files in Directory:", os.listdir())
+
 
 # Set page configuration
 st.set_page_config(page_title="Anomaly Detection System", layout="wide")
@@ -181,4 +179,5 @@ with tab3:
     - **Anomaly Score**: Lower scores indicate more anomalous behavior
 
     """)
+
 
